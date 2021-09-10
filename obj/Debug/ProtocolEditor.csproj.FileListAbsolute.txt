@@ -1,9 +1,0 @@
-C:\Users\Usuario\source\repos\ProtocolEditor\ProtocolEditor\bin\Debug\ProtocolEditor.exe.config
-C:\Users\Usuario\source\repos\ProtocolEditor\ProtocolEditor\bin\Debug\ProtocolEditor.exe
-C:\Users\Usuario\source\repos\ProtocolEditor\ProtocolEditor\bin\Debug\ProtocolEditor.pdb
-C:\Users\Usuario\source\repos\ProtocolEditor\ProtocolEditor\obj\Debug\ProtocolEditor.Properties.Resources.resources
-C:\Users\Usuario\source\repos\ProtocolEditor\ProtocolEditor\obj\Debug\ProtocolEditor.ProtocolEditor.resources
-C:\Users\Usuario\source\repos\ProtocolEditor\ProtocolEditor\obj\Debug\ProtocolEditor.csproj.GenerateResource.cache
-C:\Users\Usuario\source\repos\ProtocolEditor\ProtocolEditor\obj\Debug\ProtocolEditor.csproj.CoreCompileInputs.cache
-C:\Users\Usuario\source\repos\ProtocolEditor\ProtocolEditor\obj\Debug\ProtocolEditor.exe
-C:\Users\Usuario\source\repos\ProtocolEditor\ProtocolEditor\obj\Debug\ProtocolEditor.pdb

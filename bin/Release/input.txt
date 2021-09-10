@@ -1,0 +1,10 @@
+PreTR/TR:T
+Name:
+Ratio:0
+Flags Quantity:0
+Separation:0
+Flag Color:rojo
+Virtual scena id:
+Angulo:0
+Delay:False
+Protocol:-1

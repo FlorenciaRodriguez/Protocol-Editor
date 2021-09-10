@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtocolEditor", "ProtocolEditor.csproj", "{95F40BB3-CB60-4433-B684-4D45B25048A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protocol-Editor", "Protocol-Editor.csproj", "{FA44772C-6008-4491-9E36-E944988C994E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{95F40BB3-CB60-4433-B684-4D45B25048A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{95F40BB3-CB60-4433-B684-4D45B25048A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{95F40BB3-CB60-4433-B684-4D45B25048A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{95F40BB3-CB60-4433-B684-4D45B25048A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA44772C-6008-4491-9E36-E944988C994E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA44772C-6008-4491-9E36-E944988C994E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA44772C-6008-4491-9E36-E944988C994E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA44772C-6008-4491-9E36-E944988C994E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C9D4DB5E-B0CD-4012-8CCE-8B905645561F}
+		SolutionGuid = {D911B7E3-B023-46BA-9B0B-A72123C5D3ED}
 	EndGlobalSection
 EndGlobal

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
-[assembly: AssemblyTitle("ProtocolEditor")]
+[assembly: AssemblyTitle("Protocol_Editor")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ProtocolEditor")]
+[assembly: AssemblyProduct("Protocol_Editor")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("95f40bb3-cb60-4433-b684-4d45b25048a5")]
+[assembly: Guid("fa44772c-6008-4491-9e36-e944988c994e")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //

@@ -1,0 +1,10 @@
+C:\Users\Usuario\source\repos\Protocol-Editor\bin\Release\Protocol_Editor.exe.config
+C:\Users\Usuario\source\repos\Protocol-Editor\bin\Release\Protocol_Editor.exe
+C:\Users\Usuario\source\repos\Protocol-Editor\bin\Release\Protocol_Editor.pdb
+C:\Users\Usuario\source\repos\Protocol-Editor\obj\Release\Protocol-Editor.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Protocol-Editor\obj\Release\Protocol_Editor.Form1.resources
+C:\Users\Usuario\source\repos\Protocol-Editor\obj\Release\Protocol_Editor.Properties.Resources.resources
+C:\Users\Usuario\source\repos\Protocol-Editor\obj\Release\Protocol-Editor.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\Protocol-Editor\obj\Release\Protocol-Editor.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Protocol-Editor\obj\Release\Protocol_Editor.exe
+C:\Users\Usuario\source\repos\Protocol-Editor\obj\Release\Protocol_Editor.pdb
