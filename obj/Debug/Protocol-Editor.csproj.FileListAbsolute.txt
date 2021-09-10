@@ -8,3 +8,13 @@ C:\Users\Usuario\source\repos\Protocol_Editor\obj\Debug\Protocol-Editor.csproj.G
 C:\Users\Usuario\source\repos\Protocol_Editor\obj\Debug\Protocol-Editor.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\source\repos\Protocol_Editor\obj\Debug\Protocol_Editor.exe
 C:\Users\Usuario\source\repos\Protocol_Editor\obj\Debug\Protocol_Editor.pdb
+C:\Users\Usuario\source\repos\Protocol-Editor\bin\Debug\Protocol_Editor.exe.config
+C:\Users\Usuario\source\repos\Protocol-Editor\bin\Debug\Protocol_Editor.exe
+C:\Users\Usuario\source\repos\Protocol-Editor\bin\Debug\Protocol_Editor.pdb
+C:\Users\Usuario\source\repos\Protocol-Editor\obj\Debug\Protocol-Editor.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Protocol-Editor\obj\Debug\Protocol_Editor.Form1.resources
+C:\Users\Usuario\source\repos\Protocol-Editor\obj\Debug\Protocol_Editor.Properties.Resources.resources
+C:\Users\Usuario\source\repos\Protocol-Editor\obj\Debug\Protocol-Editor.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\Protocol-Editor\obj\Debug\Protocol-Editor.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Protocol-Editor\obj\Debug\Protocol_Editor.exe
+C:\Users\Usuario\source\repos\Protocol-Editor\obj\Debug\Protocol_Editor.pdb

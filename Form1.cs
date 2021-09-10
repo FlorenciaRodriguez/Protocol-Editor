@@ -270,6 +270,8 @@ Pen blackPen = new Pen(Color.Black, 2);
 
                 using (FileStream fs = File.Create(fileName))
                 {
+                    byte[] ip = new UTF8Encoding(true).GetBytes("IP:" + textBox2.Text + "\n");
+                    fs.Write(ip, 0, ip.Length);
                     byte[] preotr;
                     if (comboBox6.SelectedIndex == 1)
                     {
@@ -313,13 +315,13 @@ Pen blackPen = new Pen(Color.Black, 2);
                     fs.Write(colores, 0, colores.Length);
 
                     string escena = (string)comboBox2.SelectedItem;
-                    byte[] escenas = new UTF8Encoding(true).GetBytes("Virtual scena id:" + escena + "\n");
+                    byte[] escenas = new UTF8Encoding(true).GetBytes("Virtual Scena id:" + escena + "\n");
                     fs.Write(escenas, 0, escenas.Length);
 
-                    byte[] angulo = new UTF8Encoding(true).GetBytes("Angulo:" + textBox9.Value + "\n");
+                    byte[] angulo = new UTF8Encoding(true).GetBytes("Angle:" + textBox9.Value + "\n");
                     fs.Write(angulo, 0, angulo.Length);
 
-                    byte[] delay = new UTF8Encoding(true).GetBytes("Delay:" + checkBox1.Checked + "\n");
+                    byte[] delay = new UTF8Encoding(true).GetBytes("Delay:" + comboBox7.SelectedIndex + "\n");
                     fs.Write(delay, 0, delay.Length);
 
                     byte[] protocol = new UTF8Encoding(true).GetBytes("Protocol:" + comboBox5.SelectedIndex + "\n");
@@ -335,6 +337,11 @@ Pen blackPen = new Pen(Color.Black, 2);
         }
 
         private void comboBox5_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label22_Click(object sender, EventArgs e)
         {
 
         }

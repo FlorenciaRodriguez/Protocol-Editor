@@ -73,7 +73,6 @@ namespace Protocol_Editor
             this.textBox8 = new System.Windows.Forms.NumericUpDown();
             this.label11 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.NumericUpDown();
@@ -88,6 +87,9 @@ namespace Protocol_Editor
             this.label13 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.NumericUpDown();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -243,9 +245,9 @@ namespace Protocol_Editor
             this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 3;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 49.58333F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.41667F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 81F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 52.41935F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 47.58065F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 73F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(170, 322);
             this.tableLayoutPanel3.TabIndex = 0;
             this.tableLayoutPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel3_Paint);
@@ -256,9 +258,9 @@ namespace Protocol_Editor
             this.groupBox3.Controls.Add(this.label17);
             this.groupBox3.Controls.Add(this.label15);
             this.groupBox3.Controls.Add(this.comboBox4);
-            this.groupBox3.Location = new System.Drawing.Point(3, 243);
+            this.groupBox3.Location = new System.Drawing.Point(3, 251);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(164, 73);
+            this.groupBox3.Size = new System.Drawing.Size(164, 68);
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Flags";
@@ -316,9 +318,9 @@ namespace Protocol_Editor
             this.groupBox1.Controls.Add(this.textBox4);
             this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Location = new System.Drawing.Point(3, 122);
+            this.groupBox1.Location = new System.Drawing.Point(3, 133);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(164, 115);
+            this.groupBox1.Size = new System.Drawing.Size(164, 112);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Circumference ";
@@ -414,6 +416,8 @@ namespace Protocol_Editor
             // 
             // groupBox6
             // 
+            this.groupBox6.Controls.Add(this.label22);
+            this.groupBox6.Controls.Add(this.textBox2);
             this.groupBox6.Controls.Add(this.label1);
             this.groupBox6.Controls.Add(this.comboBox6);
             this.groupBox6.Controls.Add(this.label5);
@@ -422,7 +426,7 @@ namespace Protocol_Editor
             this.groupBox6.Controls.Add(this.label3);
             this.groupBox6.Location = new System.Drawing.Point(3, 3);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(164, 107);
+            this.groupBox6.Size = new System.Drawing.Size(164, 124);
             this.groupBox6.TabIndex = 8;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Overall Configuration";
@@ -624,7 +628,7 @@ namespace Protocol_Editor
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.checkBox1);
+            this.groupBox4.Controls.Add(this.comboBox7);
             this.groupBox4.Controls.Add(this.label18);
             this.groupBox4.Controls.Add(this.label19);
             this.groupBox4.Controls.Add(this.textBox9);
@@ -635,24 +639,15 @@ namespace Protocol_Editor
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Trial";
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(138, 44);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 12;
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(3, 47);
+            this.label18.Location = new System.Drawing.Point(3, 44);
             this.label18.Margin = new System.Windows.Forms.Padding(3, 6, 3, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(40, 13);
+            this.label18.Size = new System.Drawing.Size(79, 13);
             this.label18.TabIndex = 11;
-            this.label18.Text = "Delay?";
+            this.label18.Text = "Evaluate Mode";
             // 
             // label19
             // 
@@ -805,6 +800,38 @@ namespace Protocol_Editor
             this.tabPage2.Text = "Behavior Editor";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // comboBox7
+            // 
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Items.AddRange(new object[] {
+            "Complete Trial",
+            "Only Learn",
+            "Only Test"});
+            this.comboBox7.Location = new System.Drawing.Point(84, 40);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(69, 21);
+            this.comboBox7.TabIndex = 20;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(81, 98);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 3, 0, 3);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(71, 20);
+            this.textBox2.TabIndex = 3;
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(3, 101);
+            this.label22.Margin = new System.Windows.Forms.Padding(3, 6, 3, 0);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(72, 13);
+            this.label22.TabIndex = 4;
+            this.label22.Text = "IP VR Device";
+            this.label22.Click += new System.EventHandler(this.label22_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -899,7 +926,6 @@ namespace Protocol_Editor
         private System.Windows.Forms.NumericUpDown textBox10;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.ComboBox comboBox5;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Panel panel2;
@@ -908,6 +934,9 @@ namespace Protocol_Editor
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 
